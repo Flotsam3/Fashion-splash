@@ -1,13 +1,360 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/node_modules/normalize.css/normalize.css">
     <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Yellowtail&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:600&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/4d03edb761.js" crossorigin="anonymous"></script>
     <title>Fashion Splash!</title>
 </head>
+
 <body>
-    
+    <header>
+        <section class="header__accountsection">
+            <div class="header__accountsection--country">
+
+            </div>
+            <div class="header__acountsection--private">
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        </section>
+        <section class="header__navsection">
+            <div class="header__navsection__logo">
+                <img src="/img/logo/logo.png" alt="">
+            </div>
+            <div class="header__navsection__nav-bar">
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+            <div class="header__navsection__buttons">
+                <button class="header__navsection__buttons-search">
+
+                </button>
+                <button class="header__navsection__buttons-favorites">
+
+                </button>
+                <button class="header__navsection__buttons-cart">
+                    <i class="fas fa-shopping-cart"></i>
+                </button>
+                <button class="header__navsection__buttons-sign-in">
+
+                </button>
+                <button class="header__navsection__buttons-mobilenav">
+                    <i class="fas fa-bars fa-2x"></i>
+                </button>
+            </div>
+        </section>
+        <div class="header__background">
+            <div class="header__background__picture">
+                <img src="/img/logo/logo.png" alt="">
+            </div>
+            <div class="header__background__text-container">
+                <h2>60% Discount</h2>
+                <h1>Winter Collection</h1>
+                <p>Best Cloth Collection By 2020!</p>
+                <button>Shop Now</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="category">
+        <h1>Shop by Category</h1>
+        <div class="category__women">
+            <div class="category__women__content">
+                <h3 class="category--content-mainheader">Owmen`s</h3>
+                <button>Best New Deals</button>
+                <h4 class="category--content-italicheader">New Collection</h4>
+            </div>
+        </div>
+        <div class="category__winter">
+            <div class="category__winter__content">
+                <h4 class="category--content-italicheader">Discount!</h4>
+                <h3 class="category--content-mainheader">Winter Cloth</h3>
+                <p>New Collection</p>
+            </div>
+        </div>
+        <div class="category__men">
+            <div class="category__men__content">
+                <h3 class="category--content-mainheader">Man`s Cloth</h3>
+                <button>Best New Deals</button>
+                <h4 class="category--content-italicheader">New Collection</h4>
+            </div>
+        </div>
+    </section>
+
+    <section class="latest-products">
+        <div class="latest-products__top-row">
+            <h1>Latest Products</h1>
+            <ul class="latest-products__nav">
+                <li class="latest-products--active">All</li>
+                <li>New</li>
+                <li>Featured</li>
+                <li>Offer</li>
+            </ul>
+        </div>
+        <div class="latest-products__main">
+            <div class="latest-products__main__item1">
+                <div class="latest-products__main__apparel1">
+                    <img src="/img/categori/product1.png" alt="">
+                </div>
+                <button class="latest-products__button-new">New</button>
+                <div class="latest-products--rating">
+                    <i class="far fa-star latest-products--starstyle"></i>
+                    <i class="far fa-star latest-products--starstyle"></i>
+                    <i class="far fa-star latest-products--starstyle"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <table>
+                        <tr>
+                            <th colspan="2">Green Dress with details</th>
+                        </tr>
+                        <tr>
+                            <td class="latest-products--pricenew">$40.00</td>
+                            <td class="latest-products--priceold">$60.00</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="latest-products__main__item2">
+                <div class="latest-products__main__apparel2">
+                    <img src="/img/categori/product2.png" alt="">
+                </div>
+                <div class="latest-products--rating">
+                    <i class="far fa-star latest-products--starstyle"></i>
+                    <i class="far fa-star latest-products--starstyle"></i>
+                    <i class="far fa-star latest-products--starstyle"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <table>
+                        <tr>
+                            <th colspan="2">Green Dress with details</th>
+                        </tr>
+                        <tr>
+                            <td class="latest-products--pricenew">$40.00</td>
+                            <td class="latest-products--priceold">$60.00</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="latest-products__main__item3">
+                <div class="latest-products__main__apparel3">
+                    <img src="/img/categori/product3.png" alt="">
+                </div>
+                <button class="latest-products__button-new">New</button>
+                <div class="latest-products--rating">
+                    <i class="far fa-star latest-products--starstyle"></i>
+                    <i class="far fa-star latest-products--starstyle"></i>
+                    <i class="far fa-star latest-products--starstyle"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <table>
+                        <tr>
+                            <th colspan="2">Green Dress with details</th>
+                        </tr>
+                        <tr>
+                            <td class="latest-products--pricenew">$40.00</td>
+                            <td class="latest-products--priceold">$60.00</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="latest-products__main__item4">
+                <div class="latest-products__main__apparel4">
+                    <img src="/img/categori/product4.png" alt="">
+                </div>
+                <div class="latest-products--rating">
+                    <i class="far fa-star latest-products--starstyle"></i>
+                    <i class="far fa-star latest-products--starstyle"></i>
+                    <i class="far fa-star latest-products--starstyle"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <table>
+                        <tr>
+                            <th colspan="2">Green Dress with details</th>
+                        </tr>
+                        <tr>
+                            <td class="latest-products--pricenew">$40.00</td>
+                            <td class="latest-products--priceold">$60.00</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="latest-products__main__item5">
+                <div class="latest-products__main__apparel5">
+                    <img src="/img/categori/product5.png" alt="">
+                </div>
+                <div class="latest-products--rating">
+                    <i class="far fa-star latest-products--starstyle"></i>
+                    <i class="far fa-star latest-products--starstyle"></i>
+                    <i class="far fa-star latest-products--starstyle"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <table>
+                        <tr>
+                            <th colspan="2">Green Dress with details</th>
+                        </tr>
+                        <tr>
+                            <td class="latest-products--pricenew">$40.00</td>
+                            <td class="latest-products--priceold">$60.00</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="latest-products__main__item6">
+                <div class="latest-products__main__apparel6">
+                    <img src="/img/categori/product6.png" alt="">
+                </div>
+                <button class="latest-products__button-new">New</button>
+                <div class="latest-products--rating">
+                    <i class="far fa-star latest-products--starstyle"></i>
+                    <i class="far fa-star latest-products--starstyle"></i>
+                    <i class="far fa-star latest-products--starstyle"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <table>
+                        <tr>
+                            <th colspan="2">Green Dress with details</th>
+                        </tr>
+                        <tr>
+                            <td class="latest-products--pricenew">$40.00</td>
+                            <td class="latest-products--priceold">$60.00</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="best-product">
+        <img src="/img/categori/card-man.png" alt="" class="best-product__image-left">
+        <div class="best-product__main">
+            <h1>Find The Best Product From Our Shop</h1>
+            <p>Designers who are interested in creating the state of the art</p>
+            <button>Shop Now</button>
+        </div>
+        <img src="/img/categori/card-shape.png" alt="" class="best-product__image-right">
+    </section>
+
+    <section class="best-collection">
+        <div class="best-collection__area-left">
+            <h1>Best Collection of This Month</h1>
+            <p>Designers who are interesten crea.</p>
+            <button>Shop Now</button>
+            <img src="/img/collection/collection1.png" alt="">
+        </div>
+        <img src="/img/collection/collection2.png" alt="" class="best-collection__main-image">
+        <div class="best-collection__area-right">
+            <div class="best-collection__style-top">
+                <p>Menz Winter Jacket</p>
+                <img src="/img/collection/collection3.png" alt="">
+            </div>
+            <div class="best-collection__style-middle">
+                <button>Menz Winter Jacket</button>
+                <img src="/img/collection/collection4.png" alt="">
+            </div>
+            <div class="best-collection__style-bottom">
+                <p>Menz Winter Jacket</p>
+                <img src="/img/collection/collection5.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="latest-offers">
+        <img src="" alt="" class="latest-offers__image-left">
+        <div class="latest-offers__info-section">
+            <h1>Get Our </br> Latest Offers News</h1>
+            <p>Subscribe to the newsletter</p>
+        </div>
+        <button class="latest-offers__button-bottom">Your email here</button>
+        <button class="latest-offers__button-top">Shop Now</button>
+        <img src="" alt="" class="latest-offers__image-left">
+    </section>
+
+    <section class="payment">
+        <div class="payment__shipping">
+            <i class="fas fa-box fa-3x"></i>
+            <h2>Free Shipping Method</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        </div>
+        <div class="payment__option-a">
+            <i class="fas fa-unlock-alt fa-3x"></i>
+            <h2>Secure Payment System</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+        </div>
+        <div class="payment__option-b">
+            <i class="fas fa-sync-alt fa-3x"></i>
+            <h2>Secure Payment System</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        </div>
+    </section>
+
+    <section class="styles">
+        <img src="/img/gallery/gallery1.jpg" alt="">
+        <img src="/img/gallery/gallery2.jpg" alt="">
+        <img src="/img/gallery/gallery3.jpg" alt="">
+        <img src="/img/gallery/gallery4.jpg" alt="">
+        <img src="/img/gallery/gallery5.jpg" class="styles__rogue-pic" alt="">
+    </section>
+
+    <footer>
+        <div class="footer__main-text">
+            <div class="footer__estore">
+                <img src="/img/logo/logo.png" alt="">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error consequatur eum, voluptates optio nesciunt ab!
+                </p>
+            </div>
+            <div class="footer__links">
+                <h2>Quick Links</h2>
+                <h3>About</h3>
+                <h3>Offers & Discounts</h3>
+                <h3>Get Coupon</h3>
+                <h3>Contact Us</h3>
+            </div>
+            <div class="footer__products">
+                <h2>New Products</h2>
+                <h3>Woman Cloth</h3>
+                <h3>Fashion Accessories</h3>
+                <h3>Man Accessories</h3>
+                <h3>Rubber made Toys</h3>
+            </div>
+            <div class="footer__support">
+                <h2>Support</h2>
+                <h3>Frequently Asked Questions</h3>
+                <h3>Terms & Conditions</h3>
+                <h3>Privacy Policy</h3>
+                <h3>Privacy Policy</h3>
+                <h3>Report a Payment Issue</h3>
+            </div>
+        </div>
+        <div class="footer__bottom-row">
+            <div class="footer__bottom-row-copyright">
+                <p>Copyright &copy;2020 All rights reserved | This template is made with <span class="footer__bottom-row--text-special"><i class="far fa-heart"></i></span> by <span class="footer__bottom-row--text-special">Colorlib</span></p>
+            </div>
+            <div class="footer__bottom-row-social-media">
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-behance"></i>
+                <i class="fas fa-globe"></i>
+            </div>
+        </div>
+    </footer>
+
 </body>
+
 </html>
