@@ -1,17 +1,29 @@
 {
   "name": "base-project",
   "version": "1.0.0",
-  "description": "",
+  "description": "## Installation",
   "main": "index.js",
   "scripts": {
-    "serve": "live-server"
+    "serve": "live-server",
+    "sass": "node-sass -watch scss/input -o scss/output"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "live-server": "^1.2.1"
+    "live-server": "^1.2.1",
+    "node-sass": "^4.13.1",
+    "sass-lint": "^1.13.1",
+    "watch": "^1.0.2"
   },
   "dependencies": {
     "normalize.css": "^8.0.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HH-FBW6/fashion-splash-Flotsam3.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HH-FBW6/fashion-splash-Flotsam3/issues"
+  },
+  "homepage": "https://github.com/HH-FBW6/fashion-splash-Flotsam3#readme"
 }
