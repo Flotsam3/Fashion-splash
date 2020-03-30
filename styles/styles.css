@@ -40,7 +40,6 @@ body {
 .header__navsection__buttons {
     display: flex;
     justify-content: space-between;
-    position: relative;
     width: 40%;
     /* outline: 1px solid lime; */
     margin-left: 10%;
@@ -55,6 +54,7 @@ body {
 }
 
 .header__navsection__buttons-cart {
+    position: relative;
     height: 50px;
     width: 50px;
     border-radius: 50%;
@@ -64,9 +64,9 @@ body {
 
 .header__navsection__buttons-counter-heart,
 .header__navsection__buttons-counter-cart {
-    position: absolute;
+    position: relative;
     top: 0px;
-    right: 120px;
+    right: 8px;
     height: 30px;
     width: 30px;
     background-color: rgb(46, 174, 248);

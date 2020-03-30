@@ -122,6 +122,7 @@
   display: initial;
   width: 50px;
   margin-right: 20px;
+  margin-left: 20px;
   background-color: transparent;
   border: 1px solid #c2bebe;
   border-radius: 50%;
@@ -129,7 +130,7 @@
 
 .header__navsection__buttons-counter-heart {
   display: initial;
-  right: 220px;
+  right: 35px;
 }
 
 .header__navsection__buttons-sign-in {
@@ -141,12 +142,12 @@
   border-radius: 25px;
 }
 
-.header__navsection__buttons-counter-cart {
-  right: 125px;
-}
-
 .header__navsection__buttons-mobilenav {
   display: none;
+}
+
+.header__navsection__buttons-counter-cart {
+  right: 10px;
 }
 
 .header__background {
