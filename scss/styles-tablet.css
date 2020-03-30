@@ -18,6 +18,10 @@
   width: 150px;
 }
 
+.header__navsection__buttons-counter-cart {
+  right: 70px;
+}
+
 .header__background {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -196,7 +200,6 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  z-index: 0;
 }
 
 .best-product__main h1 {
@@ -220,7 +223,6 @@
   -ms-flex-item-align: end;
       align-self: flex-end;
   height: 200px;
-  z-index: 1;
   margin-right: 30px;
   margin-bottom: 30px;
 }

@@ -1,0 +1,411 @@
+.header__accountsection, .header__navsection__nav-bar, .header__navsection__nav-bar ul, .header__navsection__buttons, .category__women__content, .category__winter__content, .category__men__content, .latest-products__top-row, .latest-products__top-row h1, .latest-products__top-row .latest-products__nav, .best-product__main, .best-product__image-right, .best-collection__area-right, .latest-offers__info-section h1, .latest-offers__button-bottom {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --main-header-size: 2rem;
+  --blue-tone: rgb(15, 89, 226);
+  --red-tone: rgb(235, 45, 45);
+  --grey-tone: rgb(129, 122, 122);
+  --ff-serif: 'Playfair Display', serif;
+  --ff-italic: 'Yellowtail', cursive;
+  --ff-sansserif: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header__accountsection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: black;
+  font-family: var(--ff-sansserif);
+  color: whitesmoke;
+}
+
+.header__accountsection--country {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__accountsection--country img {
+  margin-left: 100px;
+  height: 30px;
+}
+
+.header__accountsection--usa {
+  margin-left: 20px;
+}
+
+.header__accountsection--telephone {
+  margin-left: 40px;
+}
+
+.header__accountsection--private ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 100px;
+  list-style-type: none;
+}
+
+.header__accountsection--private ul li {
+  padding: 10px 20px;
+}
+
+.header__navsection {
+  font-family: var(--ff-sansserif);
+}
+
+.header__navsection__logo {
+  margin-left: 100px;
+}
+
+.header__navsection__nav-bar {
+  display: initial;
+}
+
+.header__navsection__nav-bar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  margin-left: 150px;
+  list-style-type: none;
+}
+
+.header__navsection__nav-bar ul li {
+  padding: 0 30px;
+}
+
+.header__navsection__nav-bar ul button {
+  position: absolute;
+  top: -25px;
+  right: 320px;
+  height: 25px;
+  width: 50px;
+  background-color: var(--red-tone);
+  color: whitesmoke;
+  font-size: 0.8rem;
+  border: none;
+  border-radius: 10px;
+}
+
+.header__navsection__buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: initial;
+  -webkit-box-direction: initial;
+      -ms-flex-direction: initial;
+          flex-direction: initial;
+  width: 580px;
+  margin-right: 50px;
+}
+
+.header__navsection__buttons input {
+  display: initial;
+  width: 250px;
+  padding-left: 20px;
+  background-color: transparent;
+  border: 1px solid #c2bebe;
+  border-radius: 25px;
+}
+
+.header__navsection__buttons-favorites {
+  display: initial;
+  width: 50px;
+  margin-right: 20px;
+  background-color: transparent;
+  border: 1px solid #c2bebe;
+  border-radius: 50%;
+}
+
+.header__navsection__buttons-counter-heart {
+  display: initial;
+  right: 220px;
+}
+
+.header__navsection__buttons-sign-in {
+  display: initial;
+  width: 120px;
+  background-color: var(--blue-tone);
+  color: whitesmoke;
+  border: none;
+  border-radius: 25px;
+}
+
+.header__navsection__buttons-counter-cart {
+  right: 125px;
+}
+
+.header__navsection__buttons-mobilenav {
+  display: none;
+}
+
+.header__background {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.category {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 95vw;
+  margin: 0 auto;
+}
+
+.category h1 {
+  width: 95vw;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.category__women, .category__winter, .category__men {
+  width: 32%;
+}
+
+.category__women__content, .category__winter__content, .category__men__content {
+  width: 200px;
+}
+
+.category__women__content h3, .category__winter__content h3, .category__men__content h3 {
+  font-size: 1.9rem;
+}
+
+.category__women__content h4, .category__winter__content h4, .category__men__content h4 {
+  top: 150px;
+  font-size: 1.5rem;
+}
+
+.category__women__content button, .category__winter__content button, .category__men__content button {
+  width: 130px;
+  margin-right: 15px;
+  font-size: 0.8rem;
+}
+
+.category__winter__content {
+  margin-right: 30px;
+}
+
+.category__men__content {
+  margin-right: 50px;
+}
+
+.latest-products {
+  width: 65vw;
+  margin: 0 auto;
+}
+
+.latest-products__top-row {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  width: 96%;
+  margin: 80px auto 50px;
+}
+
+.latest-products__top-row h1 {
+  width: auto;
+}
+
+.latest-products__top-row .latest-products__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.latest-products__top-row .latest-products__nav li {
+  padding: 0 15px;
+}
+
+.latest-products__main {
+  width: 100%;
+}
+
+.latest-products__main img {
+  width: 100%;
+}
+
+.latest-products__main__item1, .latest-products__main__item2, .latest-products__main__item3, .latest-products__main__item4, .latest-products__main__item5, .latest-products__main__item6 {
+  width: 30%;
+}
+
+.best-product {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  height: 60vh;
+  width: 95vw;
+  margin: 100px auto 80px;
+}
+
+.best-product__image-left {
+  display: initial;
+  height: 110%;
+  margin-top: -50px;
+}
+
+.best-product__main {
+  margin-left: 50px;
+  margin-right: 550px;
+}
+
+.best-product__main h1 {
+  width: 450px;
+}
+
+.best-product__image-right {
+  display: inline-block;
+  height: 150px;
+  margin: 0 50px 50px 0;
+}
+
+.best-collection {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin-bottom: 80px;
+}
+
+.best-collection__area-left {
+  height: 400px;
+}
+
+.best-collection__area-left p {
+  width: auto;
+  margin-bottom: 20px;
+}
+
+.best-collection__area-left img {
+  width: 230px;
+  margin-top: 50px;
+}
+
+.best-collection__main-image {
+  display: initial;
+  height: 90%;
+  margin-left: 170px;
+}
+
+.best-collection__area-right {
+  height: 230px;
+  margin-bottom: 30px;
+}
+
+.best-collection__area-right div {
+  height: 80px;
+}
+
+.best-collection__area-right img {
+  height: 70px;
+}
+
+.best-collection__area-right button {
+  height: 60px;
+}
+
+.latest-offers {
+  height: 40vh;
+}
+
+.latest-offers__image-left {
+  display: initial;
+  position: relative;
+  z-index: 0;
+  margin-top: 100px;
+  width: 500px;
+}
+
+.latest-offers__info-section {
+  position: relative;
+  top: 30px;
+  left: -120px;
+  z-index: 1;
+  height: auto;
+  width: 400px;
+  margin-bottom: 80px;
+}
+
+.latest-offers__info-section h1 {
+  font-size: 2.3rem;
+  line-height: 45px;
+}
+
+.latest-offers__button-bottom {
+  width: 300px;
+  margin-right: 250px;
+  padding-left: 20px;
+}
+
+.latest-offers__button-top {
+  right: 250px;
+}
+
+.payment {
+  width: 65vw;
+  margin: 170px auto 100px;
+}
+
+.payment div {
+  width: 30%;
+}
+
+.styles {
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  width: 95vw;
+}
+
+footer {
+  width: 65vw;
+}
+
+footer .footer__main-text {
+  width: 100%;
+}
+
+footer .footer__main-text .footer__estore,
+footer .footer__main-text .footer__links,
+footer .footer__main-text .footer__products,
+footer .footer__main-text .footer__support {
+  width: 20%;
+}
+
+footer .footer__bottom-row {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .footer__bottom-row-copyright {
+  width: auto;
+}
+/*# sourceMappingURL=styles-desktop.css.map */

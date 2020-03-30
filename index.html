@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/node_modules/normalize.css/normalize.css">
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="/scss/styles-tablet.css" media="screen and (min-width:668px)">
+    <link rel="stylesheet" href="/scss/styles-desktop.css" media="screen and (min-width:1025px)">
     <link href="https://fonts.googleapis.com/css?family=Yellowtail&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:600&display=swap" rel="stylesheet"> 
     <script src="https://kit.fontawesome.com/4d03edb761.js" crossorigin="anonymous"></script>
@@ -17,15 +18,17 @@
     <header>
         <section class="header__accountsection">
             <div class="header__accountsection--country">
-
+                <img src="/img/icon/header_icon.png" alt="">
+                <p class="header__accountsection--usa">USA</p>
+                <p class="header__accountsection--telephone">+777 2345 7886</p>
             </div>
-            <div class="header__acountsection--private">
+            <div class="header__accountsection--private">
                 <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li>My Account</li>
+                    <li>Wish List</li>
+                    <li>Shopping</li>
+                    <li>Cart</li>
+                    <li>Checkout</li>
                 </ul>
             </div>
         </section>
@@ -35,26 +38,27 @@
             </div>
             <div class="header__navsection__nav-bar">
                 <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li>Home</li>
+                    <li>Category</li>
+                    <li>Latest</li>
+                    <button class="header__navsection__buttons-hot">HOT</button>
+                    <li>Blog</li>
+                    <li>Pages</li>
+                    <li>Contact</li>
                 </ul>
             </div>
             <div class="header__navsection__buttons">
-                <button class="header__navsection__buttons-search">
-
-                </button>
+                <input type="text" placeholder="Search products" name="search">
                 <button class="header__navsection__buttons-favorites">
-
+                    <i class="far fa-heart"></i>
                 </button>
+                <button class="header__navsection__buttons-counter-heart">02</button>
                 <button class="header__navsection__buttons-cart">
                     <i class="fas fa-shopping-cart"></i>
                 </button>
+                <button class="header__navsection__buttons-counter-cart">02</button>
                 <button class="header__navsection__buttons-sign-in">
-
+                    Sign In
                 </button>
                 <button class="header__navsection__buttons-mobilenav">
                     <i class="fas fa-bars fa-2x"></i>
@@ -277,14 +281,13 @@
     </section>
 
     <section class="latest-offers">
-        <img src="" alt="" class="latest-offers__image-left">
+        <img src="/img/collection/latest-man.png" alt="" class="latest-offers__image-left">
         <div class="latest-offers__info-section">
             <h1>Get Our </br> Latest Offers News</h1>
             <p>Subscribe to the newsletter</p>
         </div>
         <button class="latest-offers__button-bottom">Your email here</button>
         <button class="latest-offers__button-top">Shop Now</button>
-        <img src="" alt="" class="latest-offers__image-left">
     </section>
 
     <section class="payment">

@@ -40,9 +40,14 @@ body {
 .header__navsection__buttons {
     display: flex;
     justify-content: space-between;
+    position: relative;
     width: 40%;
     /* outline: 1px solid lime; */
     margin-left: 10%;
+}
+
+.header__navsection__buttons input {
+    display: none;
 }
 
 .header__navsection__logo {
@@ -55,6 +60,26 @@ body {
     border-radius: 50%;
     border: 1px solid rgb(194, 190, 190);
     background-color: transparent;
+}
+
+.header__navsection__buttons-counter-heart,
+.header__navsection__buttons-counter-cart {
+    position: absolute;
+    top: 0px;
+    right: 120px;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(46, 174, 248);
+    font-family: var(--ff-sansserif);
+    color: whitesmoke;
+    font-size: 0.7rem;
+    text-align: center;
+    border: none;
+    border-radius: 50%;
+}
+
+.header__navsection__buttons-counter-heart {
+    display: none;
 }
 
 .header__navsection__buttons-mobilenav {
@@ -455,6 +480,10 @@ body {
     width: 90vw;
     margin: 0 auto;
     padding-left: 20px;
+}
+
+.latest-offers__image-left {
+    display: none;
 }
 
 .latest-offers h1 {
