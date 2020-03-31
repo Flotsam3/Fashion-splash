@@ -17,6 +17,11 @@
 
     &__buttons {
         width: 150px;
+
+        &-cart i {
+            // height: 30px;
+            width: 30px;
+        }
     }
 
     &__buttons-counter-cart {

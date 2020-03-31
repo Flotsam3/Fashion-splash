@@ -39,10 +39,7 @@ body {
 
 .header__navsection__buttons {
     display: flex;
-    justify-content: space-between;
-    width: 40%;
-    /* outline: 1px solid lime; */
-    margin-left: 10%;
+    margin-left: 130px;
 }
 
 .header__navsection__buttons input {
@@ -50,7 +47,7 @@ body {
 }
 
 .header__navsection__logo {
-    margin-left: 10%;
+    padding-left: 50px;
 }
 
 .header__navsection__buttons-cart {
@@ -85,7 +82,7 @@ body {
 .header__navsection__buttons-mobilenav {
     height: 50px;
     width: 50px;
-    margin-left: 5px;
+    margin-left: 50px;
     border: none;
     color: var(--red-tone);
     background-color: transparent;

@@ -18,6 +18,10 @@
   width: 150px;
 }
 
+.header__navsection__buttons-cart i {
+  width: 30px;
+}
+
 .header__navsection__buttons-counter-cart {
   right: 5px;
 }
