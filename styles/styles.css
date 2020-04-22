@@ -94,7 +94,7 @@ body {
 /* HEADER BACKGROUND */
 
 .header__background {
-    background-image: url('/img/hero/h1_hero.jpg');
+    background-image: url('../img/hero/h1_hero.jpg');
     background-size: cover;
     height: 65vh;
     width: 90vw;
@@ -166,7 +166,7 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background-image: url('/img/categori/cat1.jpg');
+    background-image: url('../img/categori/cat1.jpg');
     background-size: cover;
     height: 35vh;
     width: 90vw;
@@ -230,7 +230,7 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background-image: url('/img/categori/cat2.jpg');
+    background-image: url('../img/categori/cat2.jpg');
     background-size: cover;
     height: 35vh;
     width: 90vw;
@@ -249,7 +249,7 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background-image: url('/img/categori/cat3.jpg');
+    background-image: url('../img/categori/cat3.jpg');
     background-size: cover;
     height: 35vh;
     width: 90vw;
@@ -364,7 +364,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url('/img/categori/card.png');
+    background-image: url('../img/categori/card.png');
     background-size: cover;
     height: 60vh;
     width: 90vw;
@@ -473,7 +473,7 @@ body {
 
 .latest-offers {
     position: relative;
-    background-image: url('/img/collection/latest-offer.png');
+    background-image: url('../img/collection/latest-offer.png');
     width: 90vw;
     margin: 0 auto;
     padding-left: 20px;
